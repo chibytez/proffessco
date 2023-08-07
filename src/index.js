@@ -57,7 +57,7 @@ app.use(apiRoutes);
 
 // testing route
 app.get('/', (req, res) => {
-  res.send("Welcome to Barefoot Nomad Endpoints' Page");
+  res.send("Welcome to Professco Endpoints' Page");
 });
 // / catch 404 and forward to error handler
 app.use((req, res, next) => {
